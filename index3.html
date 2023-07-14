@@ -190,8 +190,61 @@
 
     </ul>
 </div>
+<hr>
+<hr>
+<hr>
+<hr>
+<h1 class="text-center bg-primary p-2 text-white">Bootsrap collapse</h1>
+<hr>
+<hr>
+<button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#test">paragraph</button>
+<div class="collapse" id="test">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta veritatis accusamus provident quam deleniti harum dolore sequi ab assumenda neque ipsam, sunt illum error cumque officia voluptas impedit voluptatem ad? Nihil beatae veniam, eum itaque modi labore sint id asperiores.</p>
+</div>
+<hr>
+<hr>
+<button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#test1">paragraph</button>
+<div class="collapse show" id="test1">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta veritatis accusamus provident quam deleniti harum dolore sequi ab assumenda neque ipsam, sunt illum error cumque officia voluptas impedit voluptatem ad? Nihil beatae veniam, eum itaque modi labore sint id asperiores.</p>
+</div>
+<hr>
+<hr>
+<div id="accordion">
+    <div class="card">
+        <div class="card-header">
+            <button class="btn" data-bs-toggle="collapse" data-bs-target="#para-1">paragraph-1</button>
+        </div>
+        <div class="card-body collapse" id="para-1" data-bs-parent="#accordion">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sed facere molestias repellendus repellat repudiandae tenetur aliquam voluptas. Mollitia quasi laudantium accusamus omnis at voluptates harum quo itaque quos quisquam?</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <button class="btn" data-bs-toggle="collapse" data-bs-target="#para-2">paragraph-2</button>
+        </div>
+        <div class="card-body collapse" id="para-2" data-bs-parent="#accordion">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sed facere molestias repellendus repellat repudiandae tenetur aliquam voluptas. Mollitia quasi laudantium accusamus omnis at voluptates harum quo itaque quos quisquam?</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <button class="btn" data-bs-toggle="collapse" data-bs-target="#para-3">paragraph-3</button>
+        </div>
+        <div class="card-body collapse show" id="para-3" data-bs-parent="#accordion">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sed facere molestias repellendus repellat repudiandae tenetur aliquam voluptas. Mollitia quasi laudantium accusamus omnis at voluptates harum quo itaque quos quisquam?</p>
+        </div>
+    </div>
+
+</div>
+
+
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+
 </body>
 </html>
